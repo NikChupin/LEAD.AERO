@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="bootstrap-reboot.css">
+    <link href="hamburger.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Премиум авиабилеты</title>
+</head>
+<body>
+<!-- promo -->
+<section class="promo" id="home">
+    <div class="container">
+        <header class="header">
+            <a href="#" class="logo">
+                <div class="logo_wrap">
+                    <img src="img/lead_logo_main_white.svg" alt="logo" class="logo_img">
+                </div>
+            </a>
+            <nav class="nav">
+                <ul class="nav_list">
+                        <li class="nav_item"><a href="#home">О компании</a></li>
+                        <li class="nav_item"><a href="#service">Услуги</a></li>
+                        <li class="nav_item"><a href="#ourteam">Наша Команда</a></li>
+                        <li class="nav_item"><a href="#help">Контакты</a></li>
+                </ul>
+                
+            </nav>
+            <div class="promo__sign">
+               <button>войти</button>
+            </div>
+            <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </button>
+        </header>
+        <div class="promo_content">
+            <div class="promo_text">
+                <h1 class="promo_title">Авиабилеты<br>бизнес-класса</h1>
+                <div class="promo_descr">Ключевая специализация работы команды LEAD.AERO – оказание комплекса услуг в сфере организации авиаперевозок, продаже авиабилетов бизнес-класса и первого класса, организации индивидуальных, групповых и корпоративных авиаперелётов через более чем 800 авиакомпаний, а также бронированию отелей более чем в 200 странах мира.
+                </div>
+                <div class="promo_btns">
+                    <button class="promo_btn promo_btn_black" id="buyNowBtn">Билеты</button>
+                    <button class="promo_btn promo_btn_white">Услуги</button>
+                </div>
+            </div>
+            <div class="promo_video">
+                <video id="video" width="560" height="316" src="img/sample.mp4" poster="img/poster.png"></video>
+                <div class="promo_play" id="playVideo">
+                    <div class="promo_play_btn">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<!-- /promo -->
+
+<!-- useful -->
+<section class="useful" id="useful">
+    <div class="container">
+        <h2 class="title">
+            Забота и Опыт
+        </h2>
+        <h3 class="subtitle">
+            Создаем ваш комфортный перелет
+        </h3>
+        <div class="description">
+            Нам доверяют – каждый месяц мы организовываем более 1 000 перелётов.
+        </div>
+        <div class="useful_content">
+            <div class="useful_item">
+                <div class="useful_icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="useful_text">
+                    <h4 class="useful_title">
+                        Подбор Авиабилетов
+                    </h4>
+                    <div class="useful_descr">
+                        Каждый маршрут строится индивидуально под запрос клиента, подбираются даже самые сложные варианты, которые не удастся найти на сайтах-агрегаторах.
+                    </div>
+                </div>
+            </div>
+            <div class="useful_item">
+                <div class="useful_icon">
+                    <i class="far fa-user"></i>
+                </div>
+                <div class="useful_text">
+                    <h4 class="useful_title">
+                        Персональные Услуги
+                    </h4>
+                    <div class="useful_descr">
+                        Первоклассный сервис по организации фаст-трека, вип-залов в аэропортах, услуги по визой поддержке и страховке.
+                    </div>
+                </div>
+            </div>
+            <div class="useful_item">
+                <div class="useful_icon">
+                    <i class="fas fa-wallet"></i>
+                </div>
+                <div class="useful_text">
+                    <h4 class="useful_title">
+                        Без Комиссий
+                    </h4>
+                    <div class="useful_descr">
+                        Нет дополнительных комиссий и наценок - билеты не дороже стоимости в самой авиакомпании.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="useful_btn">
+            Подробнее
+        </button>
+    </div>
+</section>
+
+<!-- /useful -->
+
+<!-- progress -->
+<section class="progress">
+    <div class="progress_item progress_item_buisnes">
+        <div class="progress_wrap">
+            <div class="progress_icon">
+                <i class="fas fa-city"></i>
+            </div>
+            <div class="progress_text">
+                100+
+                <br>
+                Бизнесс-клиенты
+            </div>
+        </div>
+    </div>
+    <div class="progress_item progress_item_downloads" >
+        <div class="progress_wrap">
+            <div class="progress_icon">
+                <i class="fas fa-plane"></i>
+            </div>
+            <div class="progress_text">
+                60000+<br>
+                Проданых билетов
+            </div>
+        </div>
+    </div>
+    <div class="progress_item progress_item_instal">
+        <div class="progress_wrap">
+            <div class="progress_icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="progress_text">
+                300+<br>
+                Постоянные клиенты
+            </div>
+        </div>
+    </div>
+    <div class="progress_item progress_item_users">
+        <div class="progress_wrap">
+            <div class="progress_icon">
+                <i class="fas fa-user-clock"></i>
+            </div>
+            <div class="progress_text">
+                24/7<br>
+                Круглосуточная поддержка
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /progress -->
+    
+<!-- services -->
+<section class="services" id="service">
+    <h2 class="title">Услуги</h2>
+    <div class="description">
+        Наша работа – сделать ваше путешествие простым и комфортным
+    </div>
+    <div class="service_content">
+        <div class="tabs">
+            <div class="tabs_item">
+                <div class="tabs_head">
+                    <div class="tabs_wrap">
+                        <div class="tabs_icon">
+                            <i class="fas fa-ticket-alt"></i>
+                        </div>
+                        <div class="tabs_titile">
+                            Авиабилеты
+                        </div>
+                    </div>
+                    <div class="tabs_arrow">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="tabs_content">
+                    <div class="tabs_img tabs_img_alt">
+
+                    </div>
+                    <div class="tabs_text">
+                        Подбор и оптимизация сложных маршрутов, применение бонусных карт и учет милей, подтверждение с листа ожидания.
+                    </div>
+                </div>
+            </div>
+            <div class="tabs_item">
+                <div class="tabs_head">
+                    <div class="tabs_wrap">
+                        <div class="tabs_icon">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <div class="tabs_titile">
+                            Отели
+                        </div>
+                    </div>
+                    <div class="tabs_arrow">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="tabs_content">
+                    <div class="tabs_img tabs_img_hotel">
+
+                    </div>
+                    <div class="tabs_text">
+                        Подбор и бронирование отелей по всей России и зарубежом
+                    </div>
+                </div>
+            </div>
+            <div class="tabs_item">
+                <div class="tabs_head">
+                    <div class="tabs_wrap">
+                        <div class="tabs_icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="tabs_titile">
+                            VIP-залы
+                        </div>
+                    </div>
+                    <div class="tabs_arrow">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="tabs_content">
+                    <div class="tabs_img tabs_img_star">
+
+                    </div>
+                    <div class="tabs_text">
+                        Предоставление услуг по бронированию VIP залов в аэропортах России и других странах мир.
+                    </div>
+                </div>
+            </div>
+            <div class="tabs_item">
+                <div class="tabs_head">
+                    <div class="tabs_wrap">
+                        <div class="tabs_icon">
+                            <i class="fab fa-cc-visa"></i>
+                        </div>
+                        <div class="tabs_titile">
+                            Визы
+                        </div>
+                    </div>
+                    <div class="tabs_arrow">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="tabs_content">
+                    <div class="tabs_img tabs_img_visa">
+
+                    </div>
+                    <div class="tabs_text">
+                        Оказание визовой поддержки, подготовка и оформление документов на визы через компанию-партнера.
+                    </div>
+                </div>
+            </div>
+            <div class="tabs_item">
+                <div class="tabs_head">
+                    <div class="tabs_wrap">
+                        <div class="tabs_icon">
+                            <i class="fas fa-rss"></i>
+                        </div>
+                        <div class="tabs_titile">
+                            Поддержка
+                        </div>
+                    </div>
+                    <div class="tabs_arrow">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="tabs_content">
+                    <div class="tabs_img tabs_img_rss">
+
+                    </div>
+                    <div class="tabs_text">
+                        За каждым клиентом закрепляется персональный менеджер, который будет на связи 24 часа в сутки.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /services -->
+
+<!-- comment -->
+<section class="comment">
+    <div class="container">
+        <div class="coment_wrap">
+            <div>
+                <h2 class="comment_title">
+                    Отзовы
+                    <br>
+                    наших клиентов
+                </h2>
+                <div class="comment_descr">
+                    Мы работаем для того, чтобы избавить вас от трудностей и проблем, связанных с самостоятельным поиском и бронированием билетов, их обменами и возвратами, обеспечивая при этом качественный сервис в каждый момент времени совместной работы.
+                </div>
+                <button class="coment_btn">
+                    Подробнее
+                </button>
+            </div>
+            <div>
+                <div class="comment_item">
+                    <div class="comment_icon comment_icon_man">
+
+                    </div>
+                    <div class="comment_content">
+                        <div class="comment_name">
+                            Дмитрий Суворов
+                        </div>
+                        <div class="comment_text">
+                            Замечательные ребята! Профессионалы своего дела! Всегда подскажут лучшие варианты для отдыха нашей семьи.
+                        </div>
+                    </div>
+                </div>
+                <div class="comment_item">
+                        <div class="comment_icon comment_icon_woman">
+
+                        </div>
+                        <div class="comment_content">
+                            <div class="comment_name">
+                                Екатерина Быкова
+                            </div>
+                            <div class="comment_text">
+                                Покупаю авиа билеты здесь не впервые,всегда приветливые сотрудники,помогут подобрать  оптимальный вариант.
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /comment -->
+
+<!-- team -->
+<section class="team" id="ourteam">
+    <h2 class="title">Наша команда</h2>
+    <div class="description">С нами вы можете быть уверены, что находитесь в надежных руках</div>
+    <div class="team_content">
+        <div class="carousel">
+            <div class="carousel_item">
+                <div class="carousel_image" style="background: url(/img/face1.jpg) center center/cover no-repeat;"></div>
+                <div class="carousel_main">
+                    <div class="carousel_name">Татьяна Кирилова</div>
+                    <div class="carousel_text">Заместитель руководителя отдела продаж </div>
+                    <div class="carousel_links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="far fa-futbol"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel_item">
+                <div class="carousel_image" style="background: url(/img/face3.jpg) center center/cover no-repeat;"></div>
+                <div class="carousel_main">
+                    <div class="carousel_name">Андрей Борковский</div>
+                    <div class="carousel_text">Руководитель отдела продаж </div>
+                    <div class="carousel_links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="far fa-futbol"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel_item">
+                <div class="carousel_image" style="background: url(/img/face2.jpg) center center/cover no-repeat;"></div>
+                <div class="carousel_main">
+                    <div class="carousel_name">Влад Митрофанов</div>
+                    <div class="carousel_text">Менеджер по продажам </div>
+                    <div class="carousel_links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="far fa-futbol"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel_item">
+                <div class="carousel_image" style="background: url(/img/face4.jpg) center center/cover no-repeat;"></div>
+                <div class="carousel_main">
+                    <div class="carousel_name">Александр Смирнов</div>
+                    <div class="carousel_text">Заместитель главного директора </div>
+                    <div class="carousel_links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="far fa-futbol"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /team -->
+
+<!-- contact -->
+<section class="contact" id="help">
+    <h2 class="title">Напиши Нам</h2>
+    <div class="description" style="color: #061e37;">Обращаясь в компанию Lead.Aero для подбора и покупки авиабилетов бизнес-класса вы получаете не просто билет, а полный комплекс услуг, который не окажет ни одна компания.</div>
+    <div class="contact_content">
+        <form action="#" class="form">
+            <div class="form_wrap">
+                <input type="text" name="firstName" class="form_inp" placeholder="Имя" required>
+                <input type="text" name="lastName" class="form_inp" placeholder="Фамилия" required>
+            </div>
+            <div class="form_wrap">
+                <input type="email" name="email" class="form_inp" placeholder="Email" required>
+                <input type="tel" name="tel" class="form_inp" placeholder="Телефон">
+            </div>
+            <textarea name="message" class="form_message" placeholder="Сообщение ..."></textarea>
+            <div class="form_send">
+                <label for=""><input type="checkbox" name="subs" class="form_subs">подписаться на новости</label>
+                <input type="submit" class="form_btn" value="Отправить">
+            </div>
+        </form>
+    </div>
+</section>
+<!-- /contact -->
+
+<!-- footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer_wrap">
+            <div class="footer_first">
+                <a href="#" class="logo">
+                    <div class="logo_wrap">
+                        <img src="img/lead_logo_main_white.svg" alt="logo" class="logo_img">
+                    </div>
+                </a>
+                <div class="footer_submenu">
+                    <a href="#">Конфиденциальность</a>
+                    <div></div>
+                    <a href="#">Договор публичной оферты</a>
+                </div>
+            </div>
+            <div class="footer_primary">
+                <nav class="nav nav_footer">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#home">О компании</a></li>
+                        <li class="nav_item"><a href="#service">Услуги</a></li>
+                        <li class="nav_item"><a href="#ourteam">Наша Команда</a></li>
+                        <li class="nav_item"><a href="#help">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="footer_links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="far fa-futbol"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- /footer -->
+
+<!-- popup -->
+    <div class="popup">
+        <div class="popup_wrap">
+            <div class="popup_form">
+                <form action="#" class="form">
+                    <div class="form_wrap">
+                        <input type="text" name="firstName" class="form_inp" placeholder="Имя" required>
+                        <input type="text" name="lastName" class="form_inp" placeholder="Фамилия" required>
+                    </div>
+                    <div class="form_wrap">
+                        <input type="email" name="email" class="form_inp" placeholder="Email" required>
+                        <input type="tel" name="tel" class="form_inp" placeholder="Телефон">
+                    </div>
+                    <textarea name="message" class="form_message" placeholder="Сообщение..."></textarea>
+                    <div class="form_send">
+                        <label for=""><input type="checkbox" name="subs" class="form_subs">подписаться на рассылку новостей</label>
+                        <input type="submit" class="form_btn" value="Отправить">
+                    </div>
+                </form>
+                <i class="fas fa-times popup_close"></i>
+            </div>
+        </div>
+    </div>
+    <div class="popup_menu">
+        <nav class="popup_menu_nav">
+            <ul class="popup_menu_nav_list">
+                    <li class="popup_menu_nav_item"><a href="#home" class="popup_menu_nav_item_text">О компании</a></li>
+                    <li class="popup_menu_nav_item"><a href="#service" class="popup_menu_nav_item_text">Услуги</a></li>
+                    <li class="popup_menu_nav_item"><a href="#ourteam" class="popup_menu_nav_item_text">Наша Команда</a></li>
+                    <li class="popup_menu_nav_item"><a href="#help" class="popup_menu_nav_item_text">Контакты</a></li>
+            </ul>
+            
+        </nav>
+        <div class="popup_menu_promo__sign">
+           <button>войти</button>
+        </div>
+    </div>
+<!-- /popup -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
